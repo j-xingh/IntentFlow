@@ -1,0 +1,22 @@
+{
+  "training_metrics": {
+    "train_runtime": 541.0921,
+    "train_samples_per_second": 47.138,
+    "train_steps_per_second": 5.894,
+    "total_flos": 192458989861440.0,
+    "train_loss": 3.148254518338452,
+    "epoch": 3.0
+  },
+  "validation_metrics": {
+    "eval_loss": 0.5910798907279968,
+    "eval_accuracy": 0.882744836775483,
+    "eval_macro_f1": 0.8739789187426189,
+    "eval_weighted_f1": 0.8815012501410968,
+    "eval_runtime": 3.796,
+    "eval_samples_per_second": 395.418,
+    "eval_steps_per_second": 99.052,
+    "epoch": 3.0
+  },
+  "baseline_accuracy": 0.8774,
+  "baseline_macro_f1": 0.8787
+}

@@ -1,0 +1,7 @@
+text,label,true_intent,baseline_intent,distilbert_intent,distilbert_confidence,baseline_correct,distilbert_correct
+What do I have to do to get the virtual card to work?,72,virtual_card_not_working,virtual_card_not_working,getting_virtual_card,0.6527954936027527,True,False
+I cannot get my virtual card to function.,72,virtual_card_not_working,virtual_card_not_working,getting_virtual_card,0.5562626123428345,True,False
+Is there a reason why my virtual card won't work?,72,virtual_card_not_working,virtual_card_not_working,getting_virtual_card,0.4838772416114807,True,False
+I can't get my virtual card to work.,72,virtual_card_not_working,virtual_card_not_working,getting_virtual_card,0.4718686044216156,True,False
+I cannot get my disposable virtual card to work,72,virtual_card_not_working,virtual_card_not_working,get_disposable_virtual_card,0.3697686791419983,True,False
+My disposable virtual card was rejected.,72,virtual_card_not_working,virtual_card_not_working,get_disposable_virtual_card,0.19027665257453918,True,False

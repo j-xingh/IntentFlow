@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies/build output
+frontend/node_modules/
+frontend/dist/
+
+# Local datasets (check dataset terms before publishing)
+data/raw/
+data/processed/
+
+# Large model weights and training checkpoints (use Git LFS or model hosting if needed)
+models/**/checkpoint-*/
+models/distilbert/final/
+models/distilbert/final_fp32/
+models/baseline/*.joblib
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# DistilBERT training checkpoints
+models/distilbert/checkpoints/
+models/distilbert/checkpoints_fp32/
+
+# Local environments
+venv/
+
+# Training outputs and temporary files
+checkpoints/
+artifacts/
+logs/
+
